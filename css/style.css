@@ -3035,10 +3035,9 @@ i:before {
   color: #797979;
   margin-bottom: 20px;
 }
-
 .discover_item_inner .discover_item p span {
   float: right;
-  color: #e3764b;
+  color: #bd1c05;
   font-size: 20px;
   font-family: "Playfair Display", serif;
   font-weight: bold;
@@ -7187,8 +7186,8 @@ i:before {
 
 .wel_bakery_two {
   background-image: linear-gradient(
-      rgba(255, 229, 206, 0.8),
-      rgba(255, 229, 206, 0.8)
+      rgba(255, 219, 159, 0.7),
+      rgba(255, 219, 159, 0.7)
     ),
     url(/img/bg1.avif);
 
@@ -7219,4 +7218,181 @@ i:before {
   background-image: linear-gradient(#bd1c05, #bd1c05), url(/img/bg1.avif);
 
   background-position: center;
+}
+
+/* amenities section */
+
+.am_sec {
+  background-color: #ffdb9f;
+  padding: 60px 0;
+  border-bottom: 2px dashed #bd1c05;
+  border-top: 2px dashed #bd1c05;
+}
+.amenities-section {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  margin: auto;
+}
+
+.amenity img {
+  width: 40px;
+  height: 40px;
+}
+
+.amenity p {
+  font-size: 1rem;
+  color: #111;
+  font-weight: bold;
+}
+.amenity {
+  text-align: center;
+  margin: 0 auto;
+}
+.img_box {
+  width: 65px;
+  height: 65px;
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  /* padding-top: 20px; */
+  margin-bottom: 21px;
+}
+.amenity img {
+  width: 34px;
+  height: 34px;
+}
+/* Responsive for tablets */
+@media (max-width: 992px) {
+  .amenities-section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Responsive for mobile */
+@media (max-width: 600px) {
+  .amenities-section {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* tab menu design */
+
+.menu-subtitle {
+  color: #f4b41a;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.menu-title {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.menu-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.tab-btn {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 2px solid transparent;
+}
+
+.tab-btn.active {
+  color: #f4b41a;
+  border-color: #f4b41a;
+  font-weight: bold;
+}
+
+.menu-content {
+  display: none;
+}
+
+.menu-content.active {
+  display: block;
+}
+
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.menu-item {
+  border-bottom: 1px dashed #444;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.menu-item span {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.menu-item strong {
+  float: right;
+  color: #f4b41a;
+}
+
+.menu-item p {
+  font-size: 0.875rem;
+  color: #ccc;
+  margin-top: 5px;
+}
+
+/* new bboot tab */
+
+.menu-section .nav-tabs .nav-link {
+  border: none;
+  color: #000;
+  font-size: 1rem;
+  position: relative;
+  background: #ffdb9f;
+  font-size: 23px;
+}
+
+.menu-section .nav-tabs .nav-link.active {
+  color: #bd1c05;
+  font-weight: bold;
+  /* border-bottom: 2px solid #f4b41a; */
+  background: transparent;
+  border-radius: 30px;
+  font-size: 23px;
+  border: none;
+  outline: none;
+}
+.menu-item strong {
+  font-weight: 600;
+}
+
+.menu-item small {
+  font-size: 0.875rem;
+}
+
+.nav-tabs {
+  border-bottom: 1px solid #333;
+}
+
+.title {
+  font-size: 62px;
+  color: #bd1c05;
+
+  font-weight: bold;
+  position: relative;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
 }
