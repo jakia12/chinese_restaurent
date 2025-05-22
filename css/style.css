@@ -1,45 +1,9 @@
-/*----------------------------------------------------
-@File: Default Styles
-@Author: Rocky
-@URL: http://wethemez.com
-Author E-mail: rockybd1995@gmail.com
-
-This file contains the styling for the actual theme, this
-is the file you need to edit to change the look of the
-theme.
----------------------------------------------------- */
-/*=====================================================================
-@Template Name: HillTown
-@Author: Rocky
-@Developed By: Rocky
-@Developer URL: http://rocky.wethemez.com
-Author E-mail: rockybd1995@gmail.com
-
-@Default Styles
-
-Table of Content:
-01/ Variables
-02/ predefin
-03/ header
-04/ button
-05/ slider
-06/ contact
-07/ feature
-08/ service
-09/ gallery 
-10/ clients 
-11/ blog 
-12/ video 
-13/ banner  
-14/ event  
-15/ room  
-16/ resturant 
-17/ footer
-=====================================================================*/
-/*----------------------------------------------------*/
 /*font Variables*/
 /*Color Variables*/
 @import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700|Montserrat:300,400,500,600,700|Open+Sans:300,400,400i,600,600i,700|Playfair+Display:400,400i,700,900|Lato");
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 
@@ -66,7 +30,11 @@ a {
   text-decoration: none;
   vertical-align: middle;
 }
-
+a,
+p,
+span {
+  font-family: "Poppins", sans-serif !important;
+}
 a:hover,
 a:focus {
   text-decoration: none;
@@ -274,9 +242,8 @@ i:before {
 
 .single_pest_title {
   text-align: center;
-  margin-bottom: 60px;
+  margin-bottom: 36px;
 }
-
 .single_pest_title h2 {
   font-size: 62px;
   color: #bd1c05;
@@ -331,7 +298,7 @@ i:before {
 .single_m_title h2 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
-  color: #3e606b;
+  color: #000;
   font-size: 36px;
   position: relative;
   padding-bottom: 10px;
@@ -2734,7 +2701,7 @@ i:before {
   position: relative;
   padding-left: 30px;
   text-decoration: none;
-  color: #3e606b;
+  color: #000;
   font-size: 22px;
   font-family: "Playfair Display", serif;
   font-weight: bold;
@@ -2745,7 +2712,7 @@ i:before {
   position: absolute;
   left: 0px;
   top: -4px;
-  color: #3e606b;
+  color: #000;
   font-weight: bold;
   font-size: 28px;
   font-family: "Montserrat", sans-serif;
@@ -2797,7 +2764,7 @@ i:before {
 
 .faq_form_area .faq_left_form .faq_title h3 {
   font-size: 36px;
-  color: #3e606b;
+  color: #000;
   font-family: "Playfair Display", serif;
   font-weight: bold;
 }
@@ -3085,7 +3052,7 @@ i:before {
 .our_bakery_area .our_bakery_text h2 {
   font-family: "Playfair Display", serif;
   font-weight: bold;
-  color: #3e606b;
+  color: #000;
   font-size: 36px;
   position: relative;
   margin-bottom: 20px;
@@ -3422,7 +3389,7 @@ i:before {
   margin-top: 20px;
   font-family: "Playfair Display", serif;
   font-weight: bold;
-  color: #3e606b;
+  color: #000;
   font-size: 20px;
   -webkit-transition: all 400ms linear 0s;
   -o-transition: all 400ms linear 0s;
@@ -3467,7 +3434,7 @@ i:before {
 
 .special_item_inner .specail_item .special_item_text h4 {
   font-size: 43px;
-  color: #3e606b;
+  color: #000;
   font-family: "Playfair Display", serif;
   font-weight: bold;
   margin-bottom: 20px;
@@ -3540,7 +3507,7 @@ i:before {
 }
 
 .client_says_inner .c_says_title {
-  padding-left: 180px;
+  padding-left: 135px;
 }
 
 .client_says_slider .item .media .d-flex {
@@ -3558,12 +3525,13 @@ i:before {
   position: absolute;
   right: 45px;
   top: 40px;
+  display: none;
 }
 
 .client_says_slider .item .media .d-flex img {
   padding-top: 25px;
+  display: none;
 }
-
 .client_says_slider .item .media .d-flex h3 {
   text-align: center;
   color: #fff;
@@ -3681,7 +3649,7 @@ i:before {
 }
 
 .testimonials_item_area .testi_item_inner .media .media-body h5 {
-  color: #3e606b;
+  color: #000;
   font-size: 20px;
   line-height: 28px;
   letter-spacing: 0.66px;
@@ -4052,7 +4020,7 @@ i:before {
 
 .blog_item .blog_text h4 {
   font-size: 24px;
-  color: #3e606b;
+  color: #000;
   font-family: "Playfair Display", serif;
   font-weight: bold;
   margin: 35px 0px 20px 0px;
@@ -4087,7 +4055,7 @@ i:before {
 
 .r_title h3 {
   font-size: 24px;
-  color: #3e606b;
+  color: #000;
   font-family: "Playfair Display", serif;
   font-weight: bold;
   display: inline-block;
@@ -4330,7 +4298,7 @@ i:before {
 ============================================================================================ */
 .b_single_text {
   font-size: 24px;
-  color: #3e606b;
+  color: #000;
   font-family: "Playfair Display", serif;
   font-weight: bold;
   margin-bottom: 25px;
@@ -4369,7 +4337,7 @@ i:before {
 
 .cm_title_br {
   font-size: 24px;
-  color: #3e606b;
+  color: #000;
   font-family: "Playfair Display", serif;
   font-weight: bold;
   margin-bottom: 30px;
@@ -4413,7 +4381,7 @@ i:before {
   font-family: "Playfair Display", serif;
   letter-spacing: 0.45px;
   line-height: normal;
-  color: #3e606b;
+  color: #000;
   font-weight: bold;
   margin-bottom: 8px;
 }
@@ -4967,7 +4935,7 @@ i:before {
   font-size: 18px;
   font-family: "Playfair Display", serif;
   font-weight: bold;
-  color: #3e606b;
+  color: #000;
   margin-bottom: 15px;
 }
 
@@ -4987,7 +4955,7 @@ i:before {
   font-size: 18px;
   font-family: "Playfair Display", serif;
   font-weight: bold;
-  color: #3e606b;
+  color: #000;
 }
 
 .contact_details .contact_d_item h5 a {
@@ -5349,7 +5317,7 @@ i:before {
 .portfolio_filter ul li a {
   text-align: center;
   font-size: 22px;
-  color: #3e606b;
+  color: #000;
   font-family: "Lora", serif;
   font-style: italic;
   font-weight: bold;
@@ -5432,7 +5400,7 @@ i:before {
 
 .portfolio_item .portfolio_text h4 {
   font-size: 18px;
-  color: #3e606b;
+  color: #000;
   font-family: "Playfair Display", serif;
   margin-top: 25px;
   margin-bottom: 0px;
@@ -5442,7 +5410,7 @@ i:before {
 }
 
 .portfolio_item .portfolio_text h4:hover {
-  color: #f195b2;
+  color: #bd1c05;
 }
 
 .portfolio_item:hover .portfolio_img a:before {
@@ -5799,7 +5767,7 @@ i:before {
 
 .p_w_title h3 {
   font-size: 24px;
-  color: #3e606b;
+  color: #000;
   font-family: "Playfair Display", serif;
   font-weight: bold;
   display: inline-block;
@@ -5846,7 +5814,7 @@ i:before {
 }
 
 .p_price_widget .filter_price .ui-slider .ui-slider-range {
-  background: #3e606b;
+  background: #000;
 }
 
 .p_price_widget .filter_price .ui-slider .ui-slider-handle {
@@ -5882,7 +5850,7 @@ i:before {
   position: absolute;
   right: 0px;
   font-size: 14px;
-  color: #3e606b;
+  color: #000;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -6070,7 +6038,7 @@ i:before {
 
 .product_details_text h4 {
   font-size: 36px;
-  color: #3e606b;
+  color: #000;
   font-family: "Playfair Display", serif;
   font-weight: bold;
   border-bottom: 1px solid #eaeaea;
@@ -6246,7 +6214,7 @@ i:before {
   border: 1px solid #ebebeb;
   line-height: 56px;
   padding: 0px;
-  color: #3e606b;
+  color: #000;
   font-family: "Playfair Display", serif;
   font-weight: bold;
   font-size: 20px;
@@ -6462,7 +6430,7 @@ i:before {
   background: #f9f9f9;
   font-family: "Playfair Display", serif;
   font-weight: bold;
-  color: #3e606b;
+  color: #000;
   line-height: 56px;
   padding: 0px 24px;
   border-bottom: 1px solid #ebebeb;
@@ -6709,7 +6677,7 @@ i:before {
   font-size: 36px;
   font-family: "Playfair Display", serif;
   font-weight: bold;
-  color: #3e606b;
+  color: #000;
   top: -30px;
 }
 
@@ -7015,8 +6983,9 @@ i:before {
 /*----------------------------------------------------*/
 /* Footer Area css
 ============================================================================================ */
+
 .footer_area {
-  background: #303339;
+  background: #000;
   overflow: hidden;
 }
 
@@ -7087,8 +7056,8 @@ i:before {
 }
 
 .f_about_widget .nav li:hover a {
-  color: #f195b2;
-  border-color: #f195b2;
+  color: #bd1c05;
+  border-color: #bd1c05;
 }
 
 .f_about_widget .nav li:last-child {
@@ -7190,9 +7159,13 @@ i:before {
       rgba(255, 219, 159, 0.7)
     ),
     url(/img/bg1.avif);
-
   background-position: center;
   padding: 60px 0;
+  border-bottom: 2px dashed #bd1c05;
+}
+
+.menu-section {
+  border-bottom: 2px dashed #bd1c05;
 }
 /* .discover_menu_inner {
   background-image: linear-gradient(
@@ -7207,13 +7180,14 @@ i:before {
 } */
 .portfolio_area {
   background-image: linear-gradient(
-      rgba(255, 229, 206, 0.8),
-      rgba(255, 229, 206, 0.8)
+      rgba(255, 219, 159, 0.7),
+      rgba(255, 219, 159, 0.7)
     ),
     url(/img/bg1.avif);
 
   background-position: center;
 }
+
 .client_says_area {
   background-image: linear-gradient(#bd1c05, #bd1c05), url(/img/bg1.avif);
 
@@ -7228,11 +7202,12 @@ i:before {
   border-bottom: 2px dashed #bd1c05;
   border-top: 2px dashed #bd1c05;
 }
+
 .amenities-section {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-
   margin: auto;
+  text-align: center;
 }
 
 .amenity img {
@@ -7249,6 +7224,7 @@ i:before {
   text-align: center;
   margin: 0 auto;
 }
+
 .img_box {
   width: 65px;
   height: 65px;
@@ -7259,6 +7235,8 @@ i:before {
   border-radius: 50%;
   /* padding-top: 20px; */
   margin-bottom: 21px;
+  margin: 18px auto;
+  /* padding-top: 30px; */
 }
 .amenity img {
   width: 34px;
@@ -7363,8 +7341,9 @@ i:before {
   position: relative;
   background: #ffdb9f;
   font-size: 23px;
+  cursor: pointer !important;
+  font-family: "Poppins";
 }
-
 .menu-section .nav-tabs .nav-link.active {
   color: #bd1c05;
   font-weight: bold;
@@ -7374,6 +7353,7 @@ i:before {
   font-size: 23px;
   border: none;
   outline: none;
+  cursor: pointer !important;
 }
 .menu-item strong {
   font-weight: 600;
